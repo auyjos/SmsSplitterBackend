@@ -1,8 +1,9 @@
 package com.sms.service;
 
-import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
+
+import org.springframework.stereotype.Service;
 
 @Service
 public class SmsService {
@@ -30,6 +31,11 @@ public class SmsService {
             }
             
             parts.add(part + suffix);
+        }
+
+        // Print each part to the console
+        for (String part : parts) {
+            System.out.println(part);
         }
 
         return parts;
