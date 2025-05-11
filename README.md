@@ -32,6 +32,10 @@ A Spring Boot application that splits long SMS messages into multiple parts whil
    ```
 
 The application will start on port 8080.
+5. Run the tests using:
+```bash
+mvn test
+``` 
 
 ## API Usage
 
@@ -145,7 +149,4 @@ The application will start on port 8080.
 
 
 
-Run the tests using:
-```bash
-mvn test
-``` 
+
