@@ -129,7 +129,6 @@ The application will start on port 8080.
 5. Add API documentation using Swagger/OpenAPI
 6. Add Docker support
 7. Add CI/CD pipeline
-## Time Spent:
 
 ## Time & Effort
 
