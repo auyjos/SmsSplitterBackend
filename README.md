@@ -30,8 +30,8 @@ A Spring Boot application that splits long SMS messages into multiple parts whil
    ```bash
    mvn spring-boot:run
    ```
-
 The application will start on port 8080.
+
 5. Run the tests using:
 ```bash
 mvn test
