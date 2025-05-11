@@ -108,7 +108,7 @@ The application will start on port 8080.
   - Rate limiting and advanced monitoring
   - Full integration and E2E tests
   - Production-grade deployment (Docker, CI/CD)
-- Focused on delivering a robust, well-tested core feature set.
+
 
 ### 7. Other Notable Decisions
 - **Console Output:**
@@ -127,11 +127,24 @@ The application will start on port 8080.
 3. Add more comprehensive logging
 4. Add integration tests
 5. Add API documentation using Swagger/OpenAPI
-6. Add frontend application with React
-7. Add Docker support
-8. Add CI/CD pipeline
+6. Add Docker support
+7. Add CI/CD pipeline
+## Time Spent:
 
-## Testing
+## Time & Effort
+
+| Task                      | Time Spent |
+|---------------------------|-----------:|
+| Initial project setup     | 1 hr       |
+| Core splitting logic      | 3 hrs      |
+| API & controller wiring   | 2 hrs      |
+| Frontend integration      | 2 hrs      |
+| Validation & error paths  | 1 hr       |
+| Unit tests                | 1 hr       |
+| Documentation & README    | 1 hr       |
+| **Total**                 | **11 hrs** |
+
+
 
 Run the tests using:
 ```bash
